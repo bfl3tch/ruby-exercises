@@ -6,7 +6,7 @@ RSpec.describe Dragon do
     dragon = Dragon.new('Ramoth', :gold, 'Lessa')
     expect(dragon.name).to eq('Ramoth')
   end
-
+#
   it 'has a rider' do
     dragon = Dragon.new('Ramoth', :gold, 'Lessa')
     expect(dragon.rider).to eq('Lessa')
